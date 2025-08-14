@@ -6,7 +6,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-HOOKS_DIR="$SCRIPT_DIR/hooks"
+HOOKS_DIR="$SCRIPT_DIR/src"
 CLAUDE_CONFIG="${HOME}/.config/claude/settings.json"
 CLAUDE_CONFIG_DIR="$(dirname "$CLAUDE_CONFIG")"
 
