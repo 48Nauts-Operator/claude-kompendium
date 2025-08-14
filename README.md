@@ -225,8 +225,8 @@ MIT - See [LICENSE](LICENSE)
 
 ## 🆘 Support
 
-- 🐛 [Issues](https://github.com/48Nauts-Operator/claude-kompendium/issues)
-- 💬 [Discussions](https://github.com/48Nauts-Operator/claude-kompendium/discussions)
+- 🐛 [Issues](https://github.com/48Nauts-Operator/claude-kompendium/issues) - Report bugs or request features
+- 🌟 [Star the repo](https://github.com/48Nauts-Operator/claude-kompendium) - If you find it useful!
 
 ---
 
