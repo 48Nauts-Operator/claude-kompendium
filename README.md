@@ -122,9 +122,8 @@ Add to `~/.config/claude/settings.json`:
 
 ## 📚 Documentation
 
-- [Complete Guide](docs/COMPLETE-GUIDE.md)
-- [Implementation Summary](docs/IMPLEMENTATION-SUMMARY.md)
-- [Contributing](CONTRIBUTING.md)
+- [Complete Guide](docs/COMPLETE-GUIDE.md) - Full technical documentation with examples
+- [Contributing](CONTRIBUTING.md) - How to contribute to the project
 
 ## 🎮 How It Works
 
