@@ -71,8 +71,8 @@ claude-kompendium/
 ├── hooks/                      # Ready-to-use hooks
 │   ├── smart-completion-guardian.py
 │   ├── auto-documentation-generator.py
-│   ├── betty-learning-reporter.py
-│   ├── betty-auto-test-fix.py
+│   ├── learning-reporter.py
+│   ├── auto-test-fix.py
 │   └── ...
 ├── configs/                    # Configuration templates
 │   ├── javascript.json
@@ -122,9 +122,9 @@ Add to `~/.config/claude/settings.json`:
 
 ## 📚 Documentation
 
-- [Complete Hook Guide](docs/HOOK-GUIDE.md)
-- [Implementation Details](docs/IMPLEMENTATION.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Complete Guide](docs/COMPLETE-GUIDE.md)
+- [Implementation Summary](docs/IMPLEMENTATION-SUMMARY.md)
+- [Blog Post](docs/BLOG-POST.md)
 - [Contributing](CONTRIBUTING.md)
 
 ## 🎮 How It Works

@@ -6,7 +6,7 @@ As developers using AI assistants like Claude, we face a fundamental challenge: 
 
 Traditional AI interactions are linear - you ask, it responds, end of story. But what if the code has bugs? What if tests fail? What if there are linting errors? Usually, you discover these issues after the AI has confidently declared "All done!" 
 
-This post explores how we built **Betty** - a self-improving, self-documenting, and quality-ensuring AI system using Claude Code's hook system.
+This post explores how we built a self-improving, self-documenting, and quality-ensuring AI system using Claude Code's hook system.
 
 ## The Hook System: Your AI's Nervous System
 
@@ -146,11 +146,11 @@ class LearningReporter:
 
 ### File Structure
 ```
-betty-proxy/hooks/
+hooks/
 ├── smart-completion-guardian.py    # Quality gatekeeper
 ├── auto-documentation-generator.py # Feature documenter
-├── betty-learning-reporter.py      # Pattern analyzer
-├── betty-auto-test-fix.py         # Direct fix attempts
+├── learning-reporter.py            # Pattern analyzer
+├── auto-test-fix.py                # Direct fix attempts
 └── setup-*.sh                      # Installation scripts
 ```
 
@@ -201,7 +201,7 @@ Over time, fewer completions get blocked because Claude learns to avoid the issu
 
 ## Real-World Results
 
-After implementing this system:
+After implementing this system in production:
 
 - **Error reduction**: 40% fewer bugs in "completed" code
 - **Documentation**: 100% of significant features auto-documented
@@ -275,7 +275,7 @@ But what it **is**:
 
 1. **Install the hooks**:
 ```bash
-cd /path/to/betty-proxy/hooks
+cd /path/to/hooks
 chmod +x setup-smart-guardian.sh
 ./setup-smart-guardian.sh
 ```
@@ -307,7 +307,7 @@ While we can't create true auto-loops with current hooks, future enhancements co
 
 ## Conclusion
 
-Building Betty taught us that the goal isn't to create a fully automatic system, but rather to create an **intelligent partnership** between human and AI. 
+Building this system taught us that the goal isn't to create a fully automatic system, but rather to create an **intelligent partnership** between human and AI. 
 
 The Smart Completion Guardian ensures quality without frustration. The documentation generator preserves knowledge without manual effort. The learning reporter ensures continuous improvement.
 
@@ -356,4 +356,4 @@ Start with the Smart Completion Guardian - even that alone will transform your A
 
 ---
 
-**About Betty**: Named after Betty Holberton, one of the first programmers of ENIAC, Betty represents the evolution of programming assistance - from human computers to AI partners that learn and improve with every interaction.
+**About This Project**: Inspired by pioneers like Betty Holberton, one of the first programmers of ENIAC, this project represents the evolution of programming assistance - from human computers to AI partners that learn and improve with every interaction.

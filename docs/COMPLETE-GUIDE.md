@@ -497,7 +497,7 @@ mkdir -p .claude-hooks
 
 # Download smart completion guardian
 curl -o .claude-hooks/guardian.py \
-  https://raw.githubusercontent.com/betty/hooks/main/smart-completion-guardian.py
+  https://raw.githubusercontent.com/48Nauts-Operator/claude-kompendium/main/hooks/smart-completion-guardian.py
 
 # Configure Claude Code
 cat > ~/.config/claude/settings.json << 'JSON'
@@ -598,14 +598,14 @@ hooks:
 
 ```bash
 # One command to rule them all
-curl -sSL https://betty.ai/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/48Nauts-Operator/claude-kompendium/main/install.sh | bash
 ```
 
 ### Method 2: Manual Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/betty/claude-code-hooks.git
+git clone https://github.com/48Nauts-Operator/claude-kompendium.git
 cd claude-code-hooks
 
 # 2. Make scripts executable
@@ -815,9 +815,8 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## Support
 
-- 📧 Email: support@betty-hooks.ai
-- 💬 Discord: discord.gg/betty-hooks
-- 🐛 Issues: github.com/betty/claude-code-hooks/issues
+- 🐛 Issues: https://github.com/48Nauts-Operator/claude-kompendium/issues
+- 💬 Discussions: https://github.com/48Nauts-Operator/claude-kompendium/discussions
 
 ---
 

@@ -25,7 +25,7 @@
           },
           {
             "type": "command",
-            "command": "python3 ${HOOKS_DIR}/betty-learning-reporter.py",
+            "command": "python3 ${HOOKS_DIR}/learning-reporter.py",
             "description": "Track patterns and generate reports"
           }
         ]

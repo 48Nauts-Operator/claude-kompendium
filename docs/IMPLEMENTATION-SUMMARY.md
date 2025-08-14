@@ -2,7 +2,7 @@
 
 ## What We Built
 
-This repository contains a complete hook system for Claude Code that was developed and tested in production on the Betty Memory System project.
+This repository contains a complete hook system for Claude Code that was developed and tested in production on a large-scale AI memory system project.
 
 ## The Journey
 

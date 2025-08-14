@@ -108,7 +108,7 @@ hooks_to_install = {
                 },
                 {
                     'type': 'command',
-                    'command': f'python3 {hooks_dir}/betty-learning-reporter.py',
+                    'command': f'python3 {hooks_dir}/learning-reporter.py',
                     'description': 'Track patterns and generate reports'
                 }
             ]
