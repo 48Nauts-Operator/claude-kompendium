@@ -124,7 +124,6 @@ Add to `~/.config/claude/settings.json`:
 
 - [Complete Guide](docs/COMPLETE-GUIDE.md)
 - [Implementation Summary](docs/IMPLEMENTATION-SUMMARY.md)
-- [Blog Post](docs/BLOG-POST.md)
 - [Contributing](CONTRIBUTING.md)
 
 ## 🎮 How It Works
@@ -220,15 +219,14 @@ MIT - See [LICENSE](LICENSE)
 
 ## 🙏 Acknowledgments
 
-- **Betty Holberton** - Inspiration for internal naming
-- **Claude Team** - For the hooks system
+- **Claude Team** - For the amazing hooks system
 - **Community** - For testing and feedback
+- **Open Source** - For inspiration and collaboration
 
 ## 🆘 Support
 
 - 🐛 [Issues](https://github.com/48Nauts-Operator/claude-kompendium/issues)
 - 💬 [Discussions](https://github.com/48Nauts-Operator/claude-kompendium/discussions)
-- 📧 Contact: [your-email]
 
 ---
 
