@@ -1,0 +1,36 @@
+{
+  "name": "JavaScript/TypeScript Configuration",
+  "description": "Optimized for Node.js, React, and TypeScript projects",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${HOOKS_DIR}/smart-completion-guardian.py",
+            "description": "Block completion until TypeScript and tests pass"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${HOOKS_DIR}/auto-documentation-generator.py",
+            "description": "Generate documentation for features"
+          }
+        ]
+      }
+    ]
+  },
+  "checks": {
+    "typescript": "npx tsc --noEmit",
+    "eslint": "npm run lint",
+    "tests": "npm test",
+    "build": "npm run build"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Python Configuration",
+  "description": "Optimized for Python projects with pytest, mypy, and ruff",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${HOOKS_DIR}/smart-completion-guardian.py",
+            "description": "Block completion until Python tests and linting pass"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${HOOKS_DIR}/auto-documentation-generator.py",
+            "description": "Generate documentation for features"
+          },
+          {
+            "type": "command",
+            "command": "python3 ${HOOKS_DIR}/betty-learning-reporter.py",
+            "description": "Track patterns and generate reports"
+          }
+        ]
+      }
+    ]
+  },
+  "checks": {
+    "syntax": "python3 -m py_compile",
+    "tests": "pytest",
+    "linting": "ruff check",
+    "type_checking": "mypy",
+    "formatting": "black --check"
+  }
+}

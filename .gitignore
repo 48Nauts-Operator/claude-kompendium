@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output directories
+output/
+reports/
+docs/auto-generated/
+patterns.json
+test-results/
+*.log
+*.jsonl
+
+# Backups
+*.backup
+*.backup.*
+
+# Claude Code
+.claude-hooks/
+completion-blocks.jsonl
+
+# Testing
+test-output/
+coverage/
+.coverage
+htmlcov/
